@@ -1,0 +1,27 @@
+LangGuess> mkdir LangGuess
+LangGuess> npm init (for having package.json)
+LangGuess> npm i franc@5.0.0 langs
+LangGuess> touch index.js
+- now writing index.js
+
+Example 1:
+LangGuess>  node index.js 'I jumped in the deep end of the swimming pool'
+output-
+Input:  I jumped in the deep end of the swimming pool
+Detected language code: eng
+Detected language: English
+
+Example 2:
+LangGuess> node index.js 'Ho saltato nella parte piu profonda della piscina'
+output-
+Input: Ho saltato nella parte piu profonda della piscina
+Detected language code: ita
+Detected language: Italian
+
+Example 3:
+LangGuess> node index.js 'Jai saute au fond de la piscine'
+output-
+Input: Jai saute au fond de la piscine
+Detected language code: fra
+Detected language: French
+
